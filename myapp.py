@@ -80,11 +80,11 @@ def update_title(attrname, old, new):
 text.on_change('value', update_title)
 
 # This is a HTML tag to display the project title.
-head = Div(text="""<h1 align="center" style="color:#1DA1F2;"> tweeRate </h1>""",
+head = Div(text="""<h1 align="center" style="color:#1DA1F2;"> TweeRate </h1>""",
 width=1500, height=40)
 
 # This HTML tag is used to display the project description.
-info = Div(text="""<div style="text-align: center;"><b>From twitting to rating.</b></div>""",
+info = Div(text="""<div style="text-align: center;"><b>From tweetting to rating.</b></div>""",
 width=1500, height=40)
 
 # This is provided to give text input examples for the user.
@@ -101,4 +101,4 @@ grid = gridplot([plot, p], ncols=2, plot_width=700, plot_height=400)
 # Add all the elements that is used in the project to display on the web page.
 curdoc().add_root(column(inputs, grid))
 #curdoc().add_root(column(button, p))
-curdoc().title = "tweeRate"
+curdoc().title = "TweeRate"

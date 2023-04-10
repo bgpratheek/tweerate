@@ -14,7 +14,7 @@ If these modules are not present, here is the installation guide for having all 
 
 Installation:
 pip install tweepy
-pip install mysqlclient
+conda install mysqlclient
 pip install IMDbPY
 pip install nltk
 pip install textblob
